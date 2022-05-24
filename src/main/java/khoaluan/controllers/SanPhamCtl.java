@@ -59,7 +59,8 @@ public class SanPhamCtl {
 	@GetMapping("findproduct")
 	@ResponseBody
 	public SanPham findById() {
-		System.out.println("wwww "+ss.findById(1));
+		System.out.println("wwww "+ss.findById(1
+				));
 		return ss.findById(1);
 	}
 }
